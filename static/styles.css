@@ -1,0 +1,124 @@
+*{
+    list-style:none;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+  }
+.Header{
+      background: #078eab8f;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+.Header ul{
+      display:flex;
+      flex-direction:row;
+      }
+
+.Header ul li{
+      font-size: 23px;
+      padding: 2px 18px;
+      color: white;
+      background: #00c7ff;
+      margin: 10px 30px;
+      background: #00a0c3;
+      color: white;
+      font-weight: 700;
+   }
+.Header ul li a{
+      color:white;
+}
+    
+.Header ul button{
+      padding: 2px 57px;
+      text-align: center;
+      font-size: 24px;
+      background: #068fad;
+      color: white;
+      font-weight: bolder;
+        }
+
+
+.card{
+       width: 30%;
+       background: #43a2ed;
+}
+.card-header{
+  margin:10px;
+  }
+.card-body{
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+      align-items: center;
+     }
+.card-header h4{
+      font-size: 43px;
+       font-weight: 600;
+       color: white;
+       text-align: center;
+     }
+.card-body h5{
+      padding:10px;
+      margin:10px;
+     }
+.green img{
+      width: 71%;
+      margin: 18px 20px;
+    }
+.blue img{
+      width: 71%;
+      margin: 18px 20px;
+ }
+.card-text input{
+     padding: 10px 10px;
+     scale:1.3;
+     background: #0f81ea;
+    }
+.custom-select{
+    margin: 13px 44px;
+    padding: 10px 10px;
+    scale: 1.3;
+    width: 46%;
+    background: #0f81ea;
+   }
+.btn{
+    width: 50%;
+    padding: 8px 12px;
+    background: #068fad;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    }
+.card-title{
+    font-size: 28px;
+    background: white;
+    width: max-content;
+    color: #008fc4;
+
+   }
+.my-1{
+    font-size: 19px;
+    color: white;
+    font-weight: 700;
+   }
+
+.float-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.a{
+  font-size: 32px;
+  background: #51c5ff;
+  padding: 12px;
+  width: max-content;
+  }
+
+
+.Logo h2{
+  font-size: 40px;
+  color: #055e55;
+}
